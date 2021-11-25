@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	z-index: -1;
+  text-align: center;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0.5em 0.75em;
+	background-color: #f6f6f6;
+	border-left: 6px solid #ccc;
+}
+
+div.enclosure {
+	margin: 2em auto;
+	padding: 1em;
+	border: 1px solid #ccc; /* 枠線 */
+	background-color: #fff; /* 背景色 */
+	box-shadow: 1px 1px 2px #ccc;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#829ebc,#225588);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td{
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+tr.hover-schedule:hover{
+	/* background-color: #d8f38f; */
+	opacity: 0.5;
+}
+
+.active {
+	display: block;
+}
+
+.passive {
+	display: none;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+}
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	max-width: 1040px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header-logo {
+	display: flex;
+	align-items: center;
+}
+.header-logoImg {
+	display: block; /* 扱いやすいようにblock要素にする */
+	width: 46px; /* 横幅を任意の大きさに調整 */
+	margin-right: 10px; /* 画像とタイトルを少し離す */
+}
+.header-logoTtl {
+	font-size: 24px; /* 任意のフォントサイズにする */
+	font-weight: bold; /* 太字にする */
+}
+.header-navList {
+	display: flex;
+	align-items: center;
+}
+.header-navList li {
+	margin: 0 20px /* ナビゲーションに左右のスペースを付ける */
+}
+.header-navList li a {
+	color: #ffffff;
+	display: block; /* 扱いやすいようにblock要素にする */
+	font-size: 16px; /* 任意のフォントサイズにする */
+	font-weight: bold; /* 太字にする */
+}
+.header-navList li a:hover {
+	opacity: 0.8; /* ホバーしたときに少し薄くなるようにアニメーションを付ける */
+}
