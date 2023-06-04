@@ -1,7 +1,7 @@
 <?php
 	function db_connect(){
 		$db_user = "root";
-		$db_pass = "root";
+		$db_pass = "";
 		$db_host = "localhost";
 		$db_name = "schedule_management";
 		$db_type = "mysql";
