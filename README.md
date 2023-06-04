@@ -31,9 +31,7 @@
 
 ## スケジュールの表示
 
-<video controls playsinline width="100%" autoplay loop muted="true" src="./ScheduleManagementImg/画面収録 2023-06-03 6.20.09.mov" type="video/mp4" >
- Sorry, your browser doesn't support embedded videos.
-</video>
+![登録](./ScheduleManagementImg/Show.jpg "Regist")
 登録したスケジュールは上記のように表示されます。<br>
 表示方法には<strong>すべて</strong>、<strong>週ごと</strong>、<strong>月ごと</strong>に表示することが可能です。<br>
 これによって、見つけたいスケジュールを素早く探して表示できます。<br>
